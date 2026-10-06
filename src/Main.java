@@ -90,12 +90,14 @@ public class Main{
 //            i++;
 //        }
 
-        Scanner loop = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = loop.nextInt();
-        for(int i=0; i<num; i++){
-            System.out.println("You are printing " + i);
-        }
+//        Scanner loop = new Scanner(System.in);
+//        System.out.print("Enter a number: ");
+//        int num = loop.nextInt();
+//        for(int i=0; i<num; i++){
+//            System.out.println("You are printing " + i);
+//        }
+
+        System.out.print("Hello, World!");
 
 
     }
