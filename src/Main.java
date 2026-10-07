@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main{
@@ -101,8 +102,22 @@ public class Main{
 //        for(int i=0; i<users.length; i++){
 //            System.out.println(users[i]);
 
-
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] values = new int[size];
+        int i;
+        for (i=0; i<size; i++){
+            System.out.println("Enter a number:");
+            int num= sc.nextInt();
+            values[i]=num;
         }
+        System.out.println("Array: "+Arrays.toString(values));
+
+        int sum=0;
+        for(i=0; i<size; i++){
+            sum = sum + values[i];
+        }
+        System.out.println("Sum: "+sum);
 
 
     }
