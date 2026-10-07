@@ -97,7 +97,12 @@ public class Main{
 //            System.out.println("You are printing " + i);
 //        }
 
-        System.out.print("Hello, World!");
+//        int[] users = {50,60,70,34};
+//        for(int i=0; i<users.length; i++){
+//            System.out.println(users[i]);
+
+
+        }
 
 
     }
