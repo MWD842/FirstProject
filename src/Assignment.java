@@ -136,18 +136,121 @@ public class Assignment {
 
         ////////////////////////////////////////////// Question 12
 
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int i;
+//        int SUM = 0;
+//        for (i=N; i>0; i--){
+//            if (i % 2==0){
+//                SUM= SUM + i;
+//            }
+//        }
+//        System.out.println(SUM);
+
+        ////////////////////////////////////////////// Question 13
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int fac = N;
+//        if (N>0) {
+//            for (int i = N; i > 0; i--) {
+//                if (i > 1) {
+//                    fac = (fac * (i - 1));
+//                }
+//            }
+//            System.out.println(fac);
+//        } else if (N == 0){
+//            System.out.println(1);
+//        } else {
+//            System.out.println("Invalid value");
+//        }
+
+        ////////////////////////////////////////////// Question 14
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int i;
+//        for(i=0; i<=N; i++){
+//            if (i%2 != 0){
+//                System.out.println(i);
+//            }
+//        }
+
+        ////////////////////////////////////////////// Question 15
+
+//        Scanner sc = new Scanner(System.in);
+//        int firstNum = sc.nextInt();
+//        int secondNum = sc.nextInt();
+//        int thirdNum = sc.nextInt();
+//        if (firstNum>secondNum){
+//            if (firstNum>thirdNum){
+//                System.out.println(firstNum);
+//            } else {
+//                System.out.println(thirdNum);
+//            }
+//        } else if (secondNum>thirdNum){
+//            System.out.println(secondNum);
+//        } else {
+//            System.out.println(thirdNum);
+//        }
+
+        ////////////////////////////////////////////// Question 16 No Idea
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        if (N>0){
+//
+//        }
+
+        ////////////////////////////////////////////// Question 17
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for (int i=0; i<=6; i++){
+//
+//        }
+
+        ////////////////////////////////////////////// Question 18
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for (int i=1; i<=N; i++){
+//            if ((i%3==0)&&(i%5==0)){
+//                System.out.println("FizzBuzz");
+//            } else if (i%5==0){
+//                System.out.println("Buzz");
+//            } else if (i%3==0){
+//                System.out.println("Fizz");
+//            } else {
+//                System.out.println(i);
+//            }
+//        }
+
+        ////////////////////////////////////////////// Question 19
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int count = 0;
+//        for(int i=1; i<=N; i++){
+//            if (i%3==0){
+//                count = count + 1;
+//            }
+//        }
+//        System.out.println(count);
+
+        ////////////////////////////////////////////// Question 20
+
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int i;
-        int SUM = 0;
-        for (i=N; i>0; i--){
-            if (i % 2==0){
-                SUM= SUM + i;
+        int count;
+        for(int i=1; i<(N+1); i++){
+            if (i!=1) {
+                System.out.println(" ");
+            }
+            for(count=0; count<i; count++){
+                System.out.print("*");
+
             }
         }
-        System.out.println(SUM);
     }
-
-    ////////////////////////////////////////////// Question 13
-
 }
