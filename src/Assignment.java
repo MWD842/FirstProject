@@ -249,7 +249,6 @@ public class Assignment {
             }
             for(count=0; count<i; count++){
                 System.out.print("*");
-
             }
         }
     }
