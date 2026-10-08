@@ -422,7 +422,54 @@ public class Quiz2 {
 //            System.out.print("NO");
 //        }
 
-        ////////////////////////////////////////////// Question 22
+        ////////////////////////////////////////////// Question 22 Not solved
+
+//        Scanner sc=new Scanner(System.in);
+//        System.out.print("Enter the array size: ");
+//        int size = sc.nextInt();
+//        int[] arr=new int[size];
+//        int i;
+//        int check = 0;
+//        for(i=0; i< arr.length; i++){
+//            System.out.print("Enter a number: ");
+//            int num = sc.nextInt();
+//            arr[i] = num;
+//        }
+//        for(i=0; i< arr.length; i++){
+//            if(arr[i]<arr[i+1] && (i<(arr.length)-1)){
+//                check = 1;
+//
+//            }
+//        }
+//        if (check == 1){
+//            System.out.println("YES");
+//        } else{
+//            System.out.println("NO");
+//        }
+
+        ////////////////////////////////////////////// Question 23
+
+//        Scanner sc=new Scanner(System.in);
+//        System.out.print("Enter the array size: ");
+//        int size = sc.nextInt();
+//        int[] arr=new int[size];
+//        int i;
+//        int sumPositive = 0;
+//        int sumNegative = 0;
+//        for(i=0; i< arr.length; i++){
+//            System.out.print("Enter a number: ");
+//            int num = sc.nextInt();
+//            arr[i] = num;
+//        }
+//        for(i=0; i< arr.length; i++){
+//            if (arr[i]<0) {
+//                arr[i] = 0;
+//            }
+//            System.out.println(arr[i]);
+//        }
+
+        ////////////////////////////////////////////// Question 24
+
 
 
     }
