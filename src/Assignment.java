@@ -240,16 +240,117 @@ public class Assignment {
 
         ////////////////////////////////////////////// Question 20
 
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int count;
-        for(int i=1; i<(N+1); i++){
-            if (i!=1) {
-                System.out.println(" ");
-            }
-            for(count=0; count<i; count++){
-                System.out.print("*");
-            }
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int count;
+//        for(int i=1; i<(N+1); i++){
+//            if (i!=1) {
+//                System.out.println(" ");
+//            }
+//            for(count=0; count<i; count++){
+//                System.out.print("*");
+//            }
+//        }
+
+        ////////////////////////////////////////////// Question 21
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for (int i=1; i<=N; i++){
+//            if (i%4!=0){
+//                System.out.println(i);
+//            }
+//        }
+
+        ////////////////////////////////////////////// Question 22
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int found = 0;
+//        for (int i=1; i<=N; i++){
+//            if(i%3==0&&i%7==0){
+//                System.out.println(i);
+//                found=1;
+//                break;
+//            }else {
+//                if (found==1){
+//                    System.out.println("-1");
+//                }
+//            }
+//        }
+//        if (found == 0){
+//            System.out.println("-1");
+//        }
+
+        ////////////////////////////////////////////// Question 23
+
+        ////////////////////////////////////////////// Question 24
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for(int i=0; i<=N; i++){
+//            int num = sc.nextInt();
+//            do {
+//                if (num>0){
+//
+//                }
+//            }while(true);
+//        }
+
+        ////////////////////////////////////////////// Question 25
+
+        ////////////////////////////////////////////// Question 26
+
+        ////////////////////////////////////////////// Question 27
+
+//        Scanner sc = new Scanner(System.in);
+//        int year = sc.nextInt();
+//        if (year%4==0 && (year%100!=0 || year%400==0)){
+//            System.out.println("LEAP");
+//        } else {
+//            System.out.println("NOT LEAP");
+//        }
+
+        ////////////////////////////////////////////// Question 28
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        for(int i=1; i<=N; i++){
+//            System.out.println("Line "+i+": Hello");
+//        }
+
+        ////////////////////////////////////////////// Question 29
+
+        ////////////////////////////////////////////// Question 30
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int num;
+//        int sum = 0;
+//        for(int i=0; i<N; i++){
+//            num = sc.nextInt();
+//            sum= sum + num;
+//        }
+//        System.out.println(sum);
+
+        ////////////////////////////////////////////// Question 31
+
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        int found=0;
+//        for(int i=1; i<=N; i++){
+//           if(i%N==0){
+//               if(i!=1&&i!=N){
+//                   found=1;
+//               }
+//           }
+//        }
+//        if (found==1){
+//            System.out.println("PRIME");
+//        } else {
+//            System.out.println("NOT PRIME");
+//        }
+
+        ////////////////////////////////////////////// Question 32
     }
 }
