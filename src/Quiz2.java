@@ -470,6 +470,34 @@ public class Quiz2 {
 
         ////////////////////////////////////////////// Question 24
 
+        ////////////////////////////////////////////// Question 25
+
+//        Scanner sc=new Scanner(System.in);
+//        System.out.print("Enter the array size: ");
+//        int size = sc.nextInt();
+//        int[] arr=new int[size];
+//        int i;
+//        for(i=0; i< arr.length; i++){
+//            System.out.print("Enter a number: ");
+//            int num = sc.nextInt();
+//            arr[i] = num;
+//        }
+//        int max = arr[0];
+//        int count = 0;
+//        for(i=1; i< arr.length; i++){
+//            if (arr[i]>max){
+//                max = arr[i];
+//            }
+//        }
+//        for(i=0; i< arr.length; i++){
+//            if (arr[i] == max){
+//                count = count + 1;
+//            }
+//        }
+//        System.out.println(max);
+//        System.out.println(count);
+
+        ////////////////////////////////////////////// Question 26
 
 
     }
